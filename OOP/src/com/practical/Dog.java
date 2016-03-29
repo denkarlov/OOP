@@ -10,9 +10,10 @@ public class Dog extends Animals implements VoiceAnimals{
 	
 	public boolean voice(){
 		if(name == "Dog"){
-			System.out.println("Gav " + getName());
+			System.out.println("Gavv " + getName());
 			return true;
 		}
+	
 	
 			else{
 				System.out.println("Only dogs can as Gav");
