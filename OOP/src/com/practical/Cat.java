@@ -10,12 +10,12 @@ public class Cat extends Animals implements VoiceAnimals{
 	String name = getName();
 	public boolean voice(){
 		if(name == "Cat"){
-			System.out.println("–ú—è—É " + getName());
+			System.out.println("Ã‡Û " + getName());
 			return true;
 		}
 	
 			else{
-				System.out.println("Only cats can as –ú—è—É");
+				System.out.println("Only cats can as Ã‡Û");
 				return false;
 			}
 			
